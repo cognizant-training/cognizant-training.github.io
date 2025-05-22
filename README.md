@@ -8,9 +8,10 @@ $ git remote add origin https://github.com/cognizant-training/cognizant-training
 $ git push -u origin main
 
 
--------------- for existing project
+-------------- for existing project..
 $ git add .
-
+$ git commit -m "first commit"
+$ git push
 ```
 
 DOM Tree ??
