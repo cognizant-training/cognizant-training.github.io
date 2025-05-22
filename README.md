@@ -14,7 +14,11 @@ $ git commit -m "first commit"
 $ git push
 ```
 
+browser ??
+
 DOM Tree ??
+
+DOM element
 
 Document Object Model
 
@@ -50,7 +54,7 @@ Common HTML Tags:
 <br>
 <hr>
 
-1. Layout andStructure
+1. Layout and Structure
 
 <header>
 <nav>
