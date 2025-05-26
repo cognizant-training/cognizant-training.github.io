@@ -107,21 +107,35 @@ sessionStorage
 
 
 
+## HTML5 Storage API
+
+### localStorage - DATA will persists even after the browser is closed
+### sessionStorage - data will be lost on broswer/tab is closed 
+
+## HTML5 API - Drag and Drop
 
 
-----------
 
-## 📦 Project Showcase
+## Bootstrap V5 
+total width devide in 12 column grid
+- CSS Classes for layout - button, forms, ...etc
+- JavaScript component built-in - (modal, dropdwon menu, tootips, navigation bar)
+- Fully Responsive
+- Mobile First
+    hide in mobile (d-none, d-md-block)
 
-| Project | Description | Link | Like |
-|--------|-------------|------|------|
-| 📝 **HTML Form Builder** | Drag-and-drop HTML form generator. | [View](https://github.com/yourusername/form-builder) | ⭐ |
-| 📊 **Chart Dashboard** | Dashboard with Chart.js & Bootstrap. | [View](https://github.com/yourusername/chart-dashboard) | ⭐ |
-| 📚 **Learning Tracker** | Track coding goals & progress. | [View](https://github.com/yourusername/learning-tracker) | ⭐ |
-| 🌐 **Travel Planner** | Plan trips with map & attractions. | [View](https://github.com/yourusername/travel-planner) | ⭐ |
-| 🔐 **Auth System** | JWT, Firebase, password login. | [View](https://github.com/yourusername/auth-system) | ⭐ |
-| 🎨 **Resume Builder** | Live preview & export to PDF. | [View](https://github.com/yourusername/resume-builder) | ⭐ |
-| 📦 **E-commerce UI** | Bootstrap-based UI with cart. | [View](https://github.com/yourusername/ecommerce-ui) | ⭐ |
-| 📱 **React Native App** | Expo, Google login & Firebase. | [View](https://github.com/yourusername/community-app) | ⭐ |
-| 🔧 **IoT Dashboard** | Real-time sensor data & control. | [View](https://github.com/yourusername/iot-dashboard) | ⭐ |
-| 📖 **Course Material** | HTML/CSS/JS course content. | [View](https://github.com/yourusername/html-css-js-course) | ⭐ |
+
+### Bootstrap CDN 
+
+
+mb-3 = margin top 1rem
+container = fixed width layout
+row = create a horizonal group
+col-*= responsive column
+col-sm-6, col-lg-3 =adjust layout per screen size
+text-center = keep text in center
+text-md-start =  left-align on medium+
+mt-3 = 
+p-2 = padding 0.5rem
+bg-dark = 
+text-white

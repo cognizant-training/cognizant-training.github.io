@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Storage API</title>
+</head>
+<body>
+    <input type="text" id="username" placeholder="Enter name">
+    <button onclick="saveData()">Save Data</button>
+    <button onclick="loadData()">Load Data</button>
+
+    <br /> <br />
+    <input type="text" id="course" placeholder="Enter Course Name">
+    <button onclick="saveData2()">Save to the session storage</button>
+    <button onclick="loadData2()">show the data from session</button>
+    <button onclick="clearData()">Clear Data</button>
+
+    <br /> <br />
+
+    <p id="output"></p>
+
+    <script>
+        function saveData() {
+           const data = document.getElementById("username").value;
+           localStorage.setItem("username", data);
+
+        }
+
+        function loadData(){
+            alert(localStorage.getItem("username"))
+        }
+
+
+        function saveData2() {
+           const data = document.getElementById("course").value;
+           sessionStorage.setItem("course", data);
+
+        }
+
+        function loadData2() {
+            const savedCourse = sessionStorage.getItem("course");
+
+            if(savedCourse) {
+                document.getElementById("output").innerText = savedCourse;
+            } else {
+                document.getElementById("output").innerText = "No Course found.";
+            }
+        }
+
+        function clearData() {
+            sessionStorage.removeItem("course");
+        }
+    </script>
+</body>
+</html>
