@@ -139,3 +139,59 @@ mt-3 =
 p-2 = padding 0.5rem
 bg-dark = 
 text-white
+
+--------------------------------
+##CSS Advanced Topics:
+
+### BOX Model 
+
+-----------------
+|               |
+|    xyz        |
+|               |
+-----------------
+
+
+### Flexbox
+can create horizonally or vertically 1D layout
+
+display:flex
+flex-direction:row |column
+justify-content: center
+alig-item: center
+gap: ---->
+flex-grow, flex-shrink, flex-basic, align-self.....
+
+### CSS Grid
+best for 2D layout (row and column)
+
+display: grid
+grid-template-column: 1fr 2fr   | repeat(3, 1fr)
+grid-template-rows: auto
+gap: 10px
+
+### Positioning
+position: static | relative | absolute | fixed | sticky 
+
+### Media Query 
+
+//Phone
+@media (max-width: 600px) {
+    .container {
+        border:1px solid red;
+    }
+}
+
+/// Tablet
+@media (min-width: 601px)  and (max-width:1024px){
+    .container {
+        border:1px solid blue;
+    }
+}
+
+// desktop
+@media (min-width: 1024px) {
+    .container {
+        border:1px solid green;
+    }
+}

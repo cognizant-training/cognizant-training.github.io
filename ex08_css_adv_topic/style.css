@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* 1. Box model*/
+.box {
+    margin:20px 0;
+    background-color: lightyellow;
+    border: 5px solid blue;
+    width: 250px;
+    padding: 15px;
+}
+
+/* 2. Flex Box*/
+.flex-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:150px;
+    background-color: #e0f7fa;
+    margin: 20px;
+}
+
+.flex-item {
+    background: lightblue;
+    border:1px solid #333;
+    padding: 20px;
+}
+
+/* 3. Grid Layout */
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    background-color: #ddd;
+    margin: 20px 0;
+    padding: 10px;
+}   
+
+.grid-item {
+    background-color: coral;
+    padding:20px;
+    text-align: center;
+}
+
+/* Positioning */
+.relative-box {
+    position: relative;
+    width: 300px;
+    height:150px;
+    background-color: #eee;
+    border: 2px solid #444;
+    margin:20px 0;
+}
+
+.absolute-box {
+    position: absolute;
+    top:20px;
+    left:30px;
+    color: white;
+    background-color: tomato;
+    padding:10px;
+}
+
+/* 5. Media Query */
+.responsive-box {
+    width: 100%;
+    padding:20px;
+    text-align: center;
+    background-color: lightgreen;
+    margin: 20px 0;
+}
+
+/* Phone */
+@media (max-width: 600px) {
+    .responsive-box {
+        border:1px solid red;
+        background-color: lightgreen;
+    }
+}
+
+/* Tablet */
+@media (min-width: 601px)  and (max-width:1024px){
+    .responsive-box {
+        border:1px solid blue;
+        background-color: rgb(248, 206, 116);
+    }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+    .responsive-box {
+        border:1px solid green;
+        background-color: rgb(238, 144, 229);
+    }
+}
