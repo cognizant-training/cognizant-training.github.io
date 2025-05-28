@@ -124,9 +124,29 @@ total width devide in 12 column grid
 - Mobile First
     hide in mobile (d-none, d-md-block)
 
+### ways of useing css 
+1. Inline css
+2. Internal css 
+3. External css
+4. using include / mixin
 
 ### Bootstrap CDN 
+Navigation, Pagination , 
 
+#### Mixin
+```css
+/* define a mixin*/
+@mixin button { 
+    color: red;
+}
+
+/* Use this mixin*/
+.btn-primary {
+    @include button;
+    color: yellow;
+}
+
+```
 
 mb-3 = margin top 1rem
 container = fixed width layout
@@ -195,3 +215,4 @@ position: static | relative | absolute | fixed | sticky
         border:1px solid green;
     }
 }
+

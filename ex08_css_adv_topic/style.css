@@ -51,6 +51,14 @@ h2 {
 }
 
 /* Positioning */
+.relative-box1 {
+    position: relative;
+    top:60px;
+    left:200px;
+    border:1px solid red;
+    width: 250px;
+}
+
 .relative-box {
     position: relative;
     width: 300px;

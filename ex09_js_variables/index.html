@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Variables and Data Types</title>
+</head>
+
+<body>
+    <h1>JavaScript Variables and Data Types</h1>
+    <p id="demo"></p>
+
+    <script>
+        // Number
+        let age = 25;
+        let price = 19.99;
+
+        // String
+        let name = "John Doe";
+        let greeting = `Hello, ${name}!`;
+
+        // Boolean
+        let isActive = true;
+
+        // Undefined 
+        let x;
+
+        // Null
+        let y = null;
+
+        // Symbol
+        let sym = Symbol("unique");
+
+        // Object
+        let person = {
+            name: "John", age: 30
+        };
+
+        // Array
+        let colors = ["red", "green", "blue"];
+
+        // Displaying the values 
+        document.getElementById("demo").innerHTML = `
+            <strong>Number:</strong> Age = ${age}, Price = ${price} <br>
+            <strong>String:</strong> ${greeting}<br>
+            <strong>Boolean:</strong> Is Active = ${isActive}<br>
+            <strong>Undefined:</strong> x = ${x}<br>
+            <strong>Null:</strong> y = ${y}<br>
+            <strong>Symbol:</strong> ${sym.toString()}<br>
+            <strong>Object:</strong> Name = ${person.name}, Age =${person.age}<br>
+            <strong>Array:</strong> Colors = ${colors.join(", ")}
+        `;
+    </script>
+</body>
+
+</html>
