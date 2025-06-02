@@ -14,205 +14,96 @@ $ git commit -m "first commit"
 $ git push
 ```
 
-browser ??
 
-DOM Tree ??
+### JavaScript String Method
+```javascript
+🔍 Search & Match Methods
+indexOf() – Returns the first index of a specified value.
 
-DOM element
+lastIndexOf() – Returns the last index of a specified value.
 
-Document Object Model
+includes() – Checks if a string contains a specified value.
 
+startsWith() – Checks if a string starts with specified characters.
 
-Document -> Global Object in JavaScript
+endsWith() – Checks if a string ends with specified characters.
 
+search() – Searches a string for a match using a regex and returns the index.
 
-html,js --> Document ---> Browser Object 
+match() – Retrieves the result of matching a string against a regex.
 
+matchAll() – Returns all regex matches in a string as an iterator.
 
-console.log(document)
+🔄 Manipulation Methods
+replace() – Replaces part of a string with another value (can use regex).
 
+replaceAll() – Replaces all matches of a string or regex.
 
-HTML- Structure of the page
-CSS - add style or design to the page
-JavaScript - Add intractivity to the page
+slice() – Extracts a section of a string and returns it as a new string.
 
+substring() – Returns the part of the string between two indices.
 
+substr() – Extracts part of a string from a position and length (deprecated).
 
-Common HTML Tags:
-<html>
-<head>
-<title>
-<body>
-<h1> --- <h6>
-<p>
-<a>
-<img>
-<ol> , <li>
-<ul> , <li>
-<table>, <tr>, <td>
-<div>
-<br>
-<hr>
+split() – Splits a string into an array by a specified delimiter.
 
-1. Layout and Structure
+concat() – Joins two or more strings together.
 
-<header>
-<nav>
-<section>
-<article>
-<aside>
-<footer>
-<main>
+padStart() – Pads the string at the beginning with another string.
 
-2. Text Content Tags
+padEnd() – Pads the string at the end with another string.
 
-<h1> .... <h6>
-<p>
-<a>
-<strong>
-<em>
-<br>
-<hr>
+repeat() – Returns a new string repeated a specified number of times.
 
-3. Form Elements
+trim() – Removes whitespace from both ends of a string.
 
-<form>
-<input>
-<label>
-<textarea>
-<select>
-<button>
+trimStart() / trimLeft() – Removes whitespace from the start of a string.
 
-4. Multimedia Tags
+trimEnd() / trimRight() – Removes whitespace from the end of a string.
 
-<video>
-<audio>
-<source>
-<iframe>
+🧪 Testing Methods
+includes() – Checks if a string contains a specific value.
 
-5. Graphics
+startsWith() – Checks if a string starts with a specified value.
 
-<canvas>
-<svg>
+endsWith() – Checks if a string ends with a specified value.
 
-6. Container tags
+🔠 Case Conversion
+toLowerCase() – Converts all characters to lowercase.
 
-<div>
-<span>
+toUpperCase() – Converts all characters to uppercase.
 
-7. storage tags
+toLocaleLowerCase() – Converts to lowercase based on locale.
 
-localStorage
-sessionStorage
+toLocaleUpperCase() – Converts to uppercase based on locale.
 
+🔤 Character Info
+charAt() – Returns the character at a specific index.
 
+charCodeAt() – Returns the Unicode of the character at a specific index.
 
-## HTML5 Storage API
+codePointAt() – Returns the Unicode code point at a given position.
 
-### localStorage - DATA will persists even after the browser is closed
-### sessionStorage - data will be lost on broswer/tab is closed 
+String.fromCharCode() – Converts Unicode values to characters.
 
-## HTML5 API - Drag and Drop
+String.fromCodePoint() – Returns a string from Unicode code points.
 
+🛠 Utility Methods
+valueOf() – Returns the primitive value of a string object.
 
+toString() – Returns the string representation of an object.
 
-## Bootstrap V5 
-total width devide in 12 column grid
-- CSS Classes for layout - button, forms, ...etc
-- JavaScript component built-in - (modal, dropdwon menu, tootips, navigation bar)
-- Fully Responsive
-- Mobile First
-    hide in mobile (d-none, d-md-block)
+normalize() – Normalizes Unicode strings.
 
-### ways of useing css 
-1. Inline css
-2. Internal css 
-3. External css
-4. using include / mixin
+localeCompare() – Compares two strings in the current locale.
 
-### Bootstrap CDN 
-Navigation, Pagination , 
+🎨 HTML Formatting (Rarely Used)
+anchor() – Creates an HTML anchor (<a>) tag.
 
-#### Mixin
-```css
-/* define a mixin*/
-@mixin button { 
-    color: red;
-}
+big() – Makes the string appear in big text.
 
-/* Use this mixin*/
-.btn-primary {
-    @include button;
-    color: yellow;
-}
+bold() – Makes the string bold using <b> tag.
 
+italics() – Makes the string italicized using <i> tag.
 ```
-
-mb-3 = margin top 1rem
-container = fixed width layout
-row = create a horizonal group
-col-*= responsive column
-col-sm-6, col-lg-3 =adjust layout per screen size
-text-center = keep text in center
-text-md-start =  left-align on medium+
-mt-3 = 
-p-2 = padding 0.5rem
-bg-dark = 
-text-white
-
---------------------------------
-##CSS Advanced Topics:
-
-### BOX Model 
-
------------------
-|               |
-|    xyz        |
-|               |
------------------
-
-
-### Flexbox
-can create horizonally or vertically 1D layout
-
-display:flex
-flex-direction:row |column
-justify-content: center
-alig-item: center
-gap: ---->
-flex-grow, flex-shrink, flex-basic, align-self.....
-
-### CSS Grid
-best for 2D layout (row and column)
-
-display: grid
-grid-template-column: 1fr 2fr   | repeat(3, 1fr)
-grid-template-rows: auto
-gap: 10px
-
-### Positioning
-position: static | relative | absolute | fixed | sticky 
-
-### Media Query 
-
-//Phone
-@media (max-width: 600px) {
-    .container {
-        border:1px solid red;
-    }
-}
-
-/// Tablet
-@media (min-width: 601px)  and (max-width:1024px){
-    .container {
-        border:1px solid blue;
-    }
-}
-
-// desktop
-@media (min-width: 1024px) {
-    .container {
-        border:1px solid green;
-    }
-}
 
