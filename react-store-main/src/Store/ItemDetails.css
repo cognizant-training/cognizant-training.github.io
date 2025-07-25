@@ -1,0 +1,84 @@
+/*
+ * Copyright 2022 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.ItemDetails {
+  text-align: left;
+  margin: 20px;
+}
+
+.ItemDetails .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.ItemDetails .content {
+  margin-top: 10px;
+}
+
+.image-container {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.item-details-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ItemDetails .pickers {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.ItemDetails .pickers .field-set {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.ItemDetails .pickers .field-set .label {
+  margin-top: 6px;
+  width: 40%;
+}
+
+.ItemDetails .pickers .field-set .input {
+  flex-grow: 1;
+}
+
+.ItemDetails .description {
+  margin-bottom: 30px;
+}
+
+.ItemDetails .description h6 {
+  margin-bottom: 10px;
+}
+
+.ItemDetails .buttons>* {
+  width: 100%;
+  margin: 4px 0;
+}
+
+.ItemDetails .snackbar-info {
+  color: #000;
+  background-color: #fff;
+}

@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the house of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 29.99,
+      "imageUrl": "https://media.gaurab.org/wp-content/uploads/20240705224204/download1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the house of Our brand. Featuring a contemporary refined design with exceptional comfort,  this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 49.99,
+      "imageUrl": "https://media.gaurab.org/wp-content/uploads/20240705224524/download3.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the hous of Our brand. Featuring a contemporary refined design with exceptional comfort,  this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 99.99,
+      "imageUrl": "https://media.gaurab.org/wp-content/uploads/20240705224615/download7.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the  house of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 29.99,
+      "imageUrl": "https://media.gaurab.org/wp-content/uploads/20240705224705/download9.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the  house of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 59.99,
+      "imageUrl": "https://media.gaurab.org/wp-content/uploads/20240705224752/download6.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the house  of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 21.99,
+      "imageUrl": "https://media.gaurab.org/wp-content/uploads/20240705224829/download4.jpeg"
+    }
+  ]
+}

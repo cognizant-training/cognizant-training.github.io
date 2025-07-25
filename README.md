@@ -107,3 +107,12 @@ bold() – Makes the string bold using <b> tag.
 italics() – Makes the string italicized using <i> tag.
 ```
 
+
+
+
+--------------
+Service Worker:
+ - Offline Supports
+ - Background Sync
+ - Push Notification 
+ - Caching (Cache API) 

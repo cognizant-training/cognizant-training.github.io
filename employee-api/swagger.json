@@ -1,0 +1,119 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Employee API",
+      "version": "1.0.0",
+      "description": "API for managing employees"
+    },
+    "paths": {
+      "/v1/employees": {
+        "post": {
+          "summary": "Add a new employee",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" },
+                    "position": { "type": "string" }
+                  },
+                  "required": ["name", "position"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": {
+              "description": "Employee created successfully"
+            },
+            "500": {
+              "description": "Internal Server Error"
+            }
+          }
+        }
+      },
+      "/v1/employees/{id}": {
+        "delete": {
+          "summary": "Remove an employee",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Employee removed successfully"
+            },
+            "404": {
+              "description": "Employee not found"
+            },
+            "500": {
+              "description": "Internal Server Error"
+            }
+          }
+        }
+      },
+      "/v2/employees": {
+        "post": {
+          "summary": "Add a new employee with timestamp",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" },
+                    "position": { "type": "string" }
+                  },
+                  "required": ["name", "position"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": {
+              "description": "Employee created successfully"
+            },
+            "500": {
+              "description": "Internal Server Error"
+            }
+          }
+        }
+      },
+      "/v2/employees/{id}": {
+        "delete": {
+          "summary": "Remove an employee",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Employee removed successfully"
+            },
+            "404": {
+              "description": "Employee not found"
+            },
+            "500": {
+              "description": "Internal Server Error"
+            }
+          }
+        }
+      }
+    }
+  }
+  

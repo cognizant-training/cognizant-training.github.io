@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the house of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 29.99,
+      "imageUrl": "https://img.freepik.com/free-photo/3d-illustration-closed-black-gift-box_107791-18203.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the house of Our brand. Featuring a contemporary refined design with exceptional comfort,  this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 49.99,
+      "imageUrl": "https://img.freepik.com/free-psd/birthday-colorful-present-box-design_23-2150318126.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the hous of Our brand. Featuring a contemporary refined design with exceptional comfort,  this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 99.99,
+      "imageUrl": "https://png.pngtree.com/png-vector/20191122/ourmid/pngtree-red-gift-box-vector-illustration-with-cute-design-isolated-on-white-png-image_2016770.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the  house of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 29.99,
+      "imageUrl": "https://i.pinimg.com/474x/ec/c0/ca/ecc0ca9ca99047a996ba8d868922955e.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the  house of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 59.99,
+      "imageUrl": "https://img.freepik.com/free-photo/3d-render-gift-box-with-ribbon-present-package_107791-15850.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "description": "Elevate your style with this classy pair of Casual Shoes from the house  of Our brand. Featuring a contemporary refined design with exceptional comfort, this pair is perfect to give your quintessential dressing an upgrade",
+      "price": 21.99,
+      "imageUrl": "https://img.freepik.com/free-photo/3d-illustration-closed-black-gift-box_107791-18203.jpg"
+    }
+  ]
+}

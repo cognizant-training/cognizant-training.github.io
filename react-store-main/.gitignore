@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Build
+/dist/bundle.js
+/dist/index.html
+
+# Misc
+.DS_Store
